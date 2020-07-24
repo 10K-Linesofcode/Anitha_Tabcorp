@@ -55,7 +55,7 @@ exports.config = {
     },
     specs: [e2econfig.features],
     baseUrl: "https://www.keno.com.au",
-    seleniumAddress: 'http://localhost:5555/wd/hub',
+    seleniumAddress: 'http://localhost:4444/wd/hub',
     allScriptsTimeout: e2econfig.testsConfigurationVariables.allScriptsTimeout,
     useAllAngular2AppRoots: e2econfig.testsConfigurationVariables.required.isAngular2App,
     cucumberOpts: {
